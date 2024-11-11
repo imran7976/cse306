@@ -30,21 +30,6 @@ function Home() {
         </section>
         
       </main>
-
-      <footer className="bg-gray-800 text-white py-6">
-        <div className="container mx-auto flex justify-between items-center">
-          <p>&copy; 2023 DiagnoEase. All rights reserved.</p>
-          <nav>
-            <ul className="flex space-x-4">
-              <li><a href="/">Home</a></li>
-              <li><a href="/all-tests">All Tests</a></li>
-              <li><a href="/bmi-calculator">BMI Calculator</a></li>
-              <li><a href="/about-us">About Us</a></li>
-              <li><a href="/contact-us">Contact Us</a></li>
-            </ul>
-          </nav>
-        </div>
-      </footer>
     </div>
     </>
   )
