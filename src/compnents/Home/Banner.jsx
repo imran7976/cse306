@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
 	const banner = {
 		image: "https://i.ibb.co/vHcjpn3/Blood-Test.jpg",
-		title: "new year offer",
+		title: "New Year Offer",
 		text: "Start the new year with a healthy lifestyle. Special offers available",
 		couponCode: "NEWYEAR15"
 	}

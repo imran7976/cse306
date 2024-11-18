@@ -26,6 +26,8 @@ import Main from "../layouts/Main";
 import App from '../App'
 import BMICalculator from "../page/BMICalculator";
 import Home from "../page/Home";
+import AboutUs from "../page/AboutUs";
+import ContactUs from "../page/ContactUs";
 
 export const router = createBrowserRouter([
 	{
@@ -61,14 +63,14 @@ export const router = createBrowserRouter([
 				path: "bmi-calculator",
 				element: <BMICalculator></BMICalculator>,
 			},
-			// {
-			// 	path: "about-us",
-			// 	element: <AboutUs></AboutUs>,
-			// },
-			// {
-			// 	path: "contact-us",
-			// 	element: <ContactUs></ContactUs>,
-			// },
+			{
+				path: "/about-us",
+				element: <AboutUs></AboutUs>,
+			},
+			{
+				path: "contact-us",
+				element: <ContactUs></ContactUs>,
+			},
 		],
 	},
 	// {
